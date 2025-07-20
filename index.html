@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Glass Weather App</title>
+
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="weather-app">
+    <div class="weather-card glass">
+      <!-- Search -->
+      <div class="search-bar">
+        <input type="text" id="cityInput" placeholder="Enter city" />
+        <button id="searchBtn"><i class="bi bi-search"></i></button>
+      </div>
+
+      <!-- Main Info -->
+      <div class="weather-main">
+        <h2 id="cityName">Weather App</h2>
+        <img id="weatherIcon" src="https://openweathermap.org/img/wn/01d@2x.png" alt="icon" />
+        <h1 id="temperature">-- °C</h1>
+        <p id="forecast">--</p>
+      </div>
+
+      <!-- Details -->
+      <div class="weather-details">
+        <p><i class="bi bi-moisture"></i> <span id="humidity">Humidity: --%</span></p>
+        <p><i class="bi bi-wind"></i> <span id="wind">Wind: -- m/s</span></p>
+        <p><i class="bi bi-eye-fill"></i> <span id="visibility">Visibility: -- km</span></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

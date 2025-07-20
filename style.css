@@ -1,0 +1,113 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background */
+body {
+  background: url("img.jpg") no-repeat center center fixed;
+  background-size: cover;
+  /* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* App Container */
+.weather-app {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+/* Glass Card */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 25px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Search */
+.search-bar {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+}
+
+.search-bar button {
+  background-color: #00b4d8;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.search-bar button:hover {
+  background-color: #0077b6;
+}
+
+/* Weather Main */
+.weather-main h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.weather-main img {
+  width: 90px;
+}
+
+.weather-main h1 {
+  font-size: 42px;
+  margin: 5px 0;
+}
+
+.weather-main p {
+  font-size: 18px;
+  color: #ddd;
+}
+
+/* Details */
+.weather-details {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.weather-details p {
+  font-size: 16px;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.weather-details i {
+  color: #90e0ef;
+}
+
+
+
+
+
+
+
+
+
