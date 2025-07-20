@@ -6,7 +6,7 @@ A responsive Weather App that fetches real-time weather information using the **
 
 ###  Live Demo
 
- Check it out live here: [https://yourusername.github.io/weather-app](https://yourusername.github.io/weather-app)
+ Check it out live here: [https://Shyam-Dev-12.github.io/weather-app](https://yourusername.github.io/weather-app)
 
 ---
 
